@@ -134,7 +134,7 @@ app.put("/image/:id", async (req, res) => {
 			data: err.message
 		});
 	}
-})
+});
 
 const port = process.env.PORT || 3001;
 app.listen(3001, () => console.log(`app is running on ${port}`));
